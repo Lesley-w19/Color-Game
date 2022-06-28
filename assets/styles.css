@@ -70,3 +70,18 @@ main {
   color: white;
   border-color: black;
 }
+.text {
+  animation: colorChange .3s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
