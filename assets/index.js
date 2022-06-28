@@ -64,7 +64,7 @@ function random(r) {
 function setNumberOfTiles() {
   // your code here
   setTimeout(() => {
-    resetGame(n);
+    resetGame(number_of_tiles);
     document.querySelector(".text").innerHTML = "";
   }, 1000);
 }
